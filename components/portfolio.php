@@ -1,4 +1,3 @@
-<!-- PORTFOLIO -->
 <section id="portfolio">
   <div class="section-header">
     <div>
@@ -16,17 +15,12 @@
 
   <div class="tab-content">
     
-    <!-- ==========================================
-         Tab Projects
-    =========================================== -->
     <div class="tab-panel active" id="tab-projects" role="tabpanel">
       <div class="projects-grid">
         
-        <!-- Project 1: DelimaCare -->
         <div class="project-card fade-in">
           <div class="proj-thumb">
-            <!-- Panggil gambar project di sini -->
-            <img src="assets/delima.png" alt="DelimaCare" class="proj-img">
+            <img src="assets/delima.png" alt="DelimaCare" class="proj-img" loading="lazy">
           </div>
           <div class="proj-body">
             <div class="proj-tags">
@@ -40,10 +34,9 @@
           </div>
         </div>
 
-        <!-- Project 2: Dashboard Fotocopy -->
         <div class="project-card fade-in">
           <div class="proj-thumb">
-            <img src="assets/fotocopy.png" alt="Dashboard Fotocopy" class="proj-img">
+            <img src="assets/fotocopy.png" alt="Dashboard Fotocopy" class="proj-img" loading="lazy">
           </div>
           <div class="proj-body">
             <div class="proj-tags">
@@ -57,10 +50,9 @@
           </div>
         </div>
 
-        <!-- Project 3: Synapse -->
         <div class="project-card fade-in">
           <div class="proj-thumb">
-            <img src="assets/synapse.png" alt="Synapse UI/UX" class="proj-img">
+            <img src="assets/synapse.png" alt="Synapse UI/UX" class="proj-img" loading="lazy">
           </div>
           <div class="proj-body">
             <div class="proj-tags">
@@ -74,10 +66,9 @@
           </div>
         </div>
 
-        <!-- Project 4: Short Movie -->
         <div class="project-card fade-in">
           <div class="proj-thumb">
-            <img src="assets/shortmovie.png" alt="Short Movie" class="proj-img">
+            <img src="assets/shortmovie.png" alt="Short Movie" class="proj-img" loading="lazy">
           </div>
           <div class="proj-body">
             <div class="proj-tags">
@@ -91,17 +82,9 @@
           </div>
         </div>
 
-      </div> <!-- /PENUTUP projects-grid -->
-    </div> <!-- /PENUTUP tab-projects -->
-
-
-    <!-- ==========================================
-         Tab Certificates
-    =========================================== -->
-    <div class="tab-panel" id="tab-certificates" role="tabpanel">
+      </div> </div> <div class="tab-panel" id="tab-certificates" role="tabpanel">
       <div class="cert-list">
         
-        <!-- Sertifikat 1 (Tambahkan cert-clickable, data-img, data-title) -->
         <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikatpolman.png" data-title="Juara Harapan 1 - Lomba UI/UX">
           <div class="cert-icon">🏅</div>
           <div>
@@ -111,7 +94,6 @@
           <div class="cert-year">2025</div>
         </div>
 
-        <!-- Sertifikat 2 (Tambahkan cert-clickable, data-img, data-title) -->
         <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikat-video.jpg" data-title="Juara Harapan 1 - Videografi Kesejarahan">
           <div class="cert-icon">🎥</div>
           <div>
@@ -120,7 +102,6 @@
           </div>
           <div class="cert-year">2024</div>
         </div>
-        <!-- Sertifikat 3 (Tambahkan cert-clickable, data-img, data-title) -->
         <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikat.png" data-title="Penghargaan Peserta - Videografi Kesejarahan">
           <div class="cert-icon">🎥</div>
           <div>
@@ -130,15 +111,9 @@
           <div class="cert-year">2025</div>
         </div>
       </div>
-    </div> <!-- /PENUTUP tab-certificates -->
-
-   <!-- ==========================================
-         Tab Skills
-    =========================================== -->
-    <div class="tab-panel" id="tab-skills" role="tabpanel">
+    </div> <div class="tab-panel" id="tab-skills" role="tabpanel">
       <div class="skills-grid">
         
-        <!-- Frontend -->
         <div class="skill-group fade-in">
           <div class="skill-group-head">Frontend Development</div>
           <div class="skill-items">
@@ -152,7 +127,6 @@
           </div>
         </div>
         
-        <!-- Backend -->
         <div class="skill-group fade-in">
           <div class="skill-group-head">Backend Development</div>
           <div class="skill-items">
@@ -166,7 +140,6 @@
           </div> 
         </div> 
 
-        <!-- UI/UX -->
         <div class="skill-group fade-in">
           <div class="skill-group-head">UI/UX Design</div>
           <div class="skill-items">
@@ -180,34 +153,11 @@
           </div> 
         </div> 
 
-        <!-- Contoh Tambahan: Jika ada skill yang baru dipelajari -->
-        <!--
-        <div class="skill-group fade-in">
-          <div class="skill-group-head">Software Lainnya</div>
-          <div class="skill-items">
-            <div>
-              <div class="skill-row">
-                <span>Software X</span>
-                <span class="skill-pct">Tidak Menguasai</span>
-              </div>
-              <div class="bar-bg"><div class="bar-fill" data-width="20"></div></div>
-            </div>
-          </div> 
-        </div> 
-        -->
-
       </div> 
-    </div> <!-- /PENUTUP tab-skills -->
-
-  </div> <!-- /PENUTUP tab-content -->
-
-  <!-- ==========================================
-       MODAL / POP-UP SERTIFIKAT (Taruh di sini bang!)
-  =========================================== -->
-  <div id="certModal" class="modal">
+    </div> </div> <div id="certModal" class="modal">
     <span class="close-modal">&times;</span>
     <img class="modal-content" id="modalImg" alt="Sertifikat">
     <div id="caption"></div>
   </div>
 
-</section> <!-- /PENUTUP section portfolio -->
+</section> 
