@@ -23,7 +23,7 @@
         </div>
         <div class="status-badge">
           <small>Status</small>
-          <strong>🟢 Open to Work</strong>
+          <strong>🟢 Open to Internship</strong>
         </div>
       </div>
     </div>

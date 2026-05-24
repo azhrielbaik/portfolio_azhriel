@@ -102,7 +102,7 @@
       <div class="cert-list">
         
         <!-- Sertifikat 1 (Tambahkan cert-clickable, data-img, data-title) -->
-        <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikatpolman.PNG" data-title="Juara Harapan 1 - Lomba UI/UX">
+        <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikatpolman.png" data-title="Juara Harapan 1 - Lomba UI/UX">
           <div class="cert-icon">🏅</div>
           <div>
             <div class="cert-name">Juara Harapan 1</div>
