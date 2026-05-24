@@ -29,11 +29,11 @@
             <div class="stat-l">Semester</div>
           </div>
           <div class="stat-card fade-in">
-            <div class="stat-n">4+</div>
+            <div class="stat-n">4</div>
             <div class="stat-l">Proyek</div>
           </div>
           <div class="stat-card fade-in">
-            <div class="stat-n">4</div>
+            <div class="stat-n">3</div>
             <div class="stat-l">Sertifikat</div>
           </div>
           <div class="stat-card fade-in">
