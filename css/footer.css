@@ -1,0 +1,31 @@
+footer {
+  background: var(--black);
+  padding: 36px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-logo {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.6rem;
+  color: var(--yellow);
+  letter-spacing: -1px;
+}
+.footer-copy {
+  font-size: 0.74rem;
+  color: #555;
+}
+.footer-copy span {
+  color: var(--yellow);
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 28px 24px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

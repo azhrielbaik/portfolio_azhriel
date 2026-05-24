@@ -1,0 +1,138 @@
+:root {
+  --yellow: #ffe500;
+  --red: #ff3b3b;
+  --blue: #4361ee;
+  --green: #2dc653;
+  --black: #111111;
+  --white: #fffdf0;
+  --border: 3px solid #111111;
+  --shadow: 5px 5px 0 #111111;
+  --shadow-lg: 8px 8px 0 #111111;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+  background: var(--white);
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+/* Global Section Styles */
+section {
+  border-bottom: var(--border);
+}
+
+.section-header {
+  padding: 60px;
+  border-bottom: var(--border);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section-num {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 3.5rem;
+  color: #e0e0d8;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.section-title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.section-sub {
+  font-size: 0.84rem;
+  color: #555;
+  max-width: 380px;
+  text-align: right;
+  line-height: 1.7;
+}
+
+/* Reusable Components */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  font-family: "DM Mono", monospace;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border: var(--border);
+  cursor: pointer;
+  background: none;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+.btn-primary {
+  background: var(--black);
+  color: var(--yellow);
+  box-shadow: var(--shadow);
+}
+.btn-primary:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0 var(--black);
+}
+
+.btn-secondary {
+  background: var(--white);
+  color: var(--black);
+  box-shadow: var(--shadow);
+}
+.btn-secondary:hover {
+  background: var(--yellow);
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0 var(--black);
+}
+
+.hl {
+  background: var(--yellow);
+  padding: 0 4px;
+}
+
+/* Global Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Base */
+@media (max-width: 768px) {
+  .section-header {
+    padding: 40px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section-sub {
+    text-align: left;
+    max-width: 100%;
+  }
+}
