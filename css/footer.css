@@ -1,3 +1,75 @@
+/* ==========================================
+   IG FEED SECTION (Menyatu dengan Footer)
+========================================== */
+.ig-feed-container {
+  background: var(--black); /* Biar warnanya nyambung sama footer bawah */
+  padding: 60px 20px 0 20px; /* Jarak atas, bawah 0 karena nempel footer */
+  text-align: center;
+}
+
+.ig-feed-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.ig-title {
+  color: var(--yellow); /* Mengikuti variabel warna web abang */
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.ig-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ig-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.ig-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.ig-card:hover img {
+  transform: scale(1.1);
+}
+
+.ig-card:hover .ig-overlay {
+  opacity: 1;
+}
+
+/* ==========================================
+   FOOTER ASLI (Bawaan Abang)
+========================================== */
 footer {
   background: var(--black);
   padding: 36px 60px;
@@ -14,10 +86,12 @@ footer {
   color: var(--yellow);
   letter-spacing: -1px;
 }
+
 .footer-copy {
   font-size: 0.74rem;
   color: #555;
 }
+
 .footer-copy span {
   color: var(--yellow);
 }

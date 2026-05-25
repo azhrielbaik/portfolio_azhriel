@@ -42,6 +42,7 @@
           </div>
         </div>
       </div>
+      
       <div class="about-right fade-in">
         <div class="info-table">
           <div class="info-row">
@@ -70,12 +71,28 @@
           </div>
           <div class="info-row">
             <div class="info-k">Minat</div>
-            <div class="info-v">Web Dev · UI/UX · Data</div>
+            <div class="info-v">Web Dev · UI/UX · Content Creator</div>
           </div>
           <div class="info-row">
             <div class="info-k">Bahasa</div>
             <div class="info-v">Indonesia · English (Passive)</div>
           </div>
+          
+          <!-- Baris Baru untuk Download CV dengan Icon Clean -->
+          <div class="info-row">
+            <div class="info-k">Curriculum Vitae</div>
+            <div class="info-v">
+              <a href="assets/CV_MOHAMMAD AZHRIEL.pdf" download="CV_Azhriel_Polsub.pdf" style="display: inline-flex; align-items: center; gap: 6px; color: #141414; text-decoration: none; font-weight: bold; border-bottom: 1px dashed #f1c40f; transition: 0.2s;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download PDF
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

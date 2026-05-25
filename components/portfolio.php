@@ -94,7 +94,7 @@
           <div class="cert-year">2025</div>
         </div>
 
-        <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikat-video.jpg" data-title="Juara Harapan 1 - Videografi Kesejarahan">
+        <div class="cert-card fade-in cert-clickable" data-img="assets/sertivideo.png" data-title="Juara Harapan 1 - Videografi Kesejarahan">
           <div class="cert-icon">🎥</div>
           <div>
             <div class="cert-name">Juara Harapan 1</div>
@@ -102,7 +102,7 @@
           </div>
           <div class="cert-year">2024</div>
         </div>
-        <div class="cert-card fade-in cert-clickable" data-img="assets/sertifikat.png" data-title="Penghargaan Peserta - Videografi Kesejarahan">
+        <div class="cert-card fade-in cert-clickable" data-img="assets/sertivideo2.png" data-title="Penghargaan Peserta - Videografi Kesejarahan">
           <div class="cert-icon">🎥</div>
           <div>
             <div class="cert-name">Penghargaan Peserta</div>
@@ -122,7 +122,7 @@
                 <span>HTML, CSS & JavaScript</span>
                 <span class="skill-pct">Menguasai</span>
               </div>
-              <div class="bar-bg"><div class="bar-fill" data-width="70"></div></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="55"></div></div>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@
                 <span>PHP & MySQL</span>
                 <span class="skill-pct">Menguasai</span>
               </div>
-              <div class="bar-bg"><div class="bar-fill" data-width="65"></div></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="50"></div></div>
             </div>
           </div> 
         </div> 
